@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.17493269, g: 0.21881326, b: 0.30112362, a: 1}
+  m_IndirectSpecularColor: {r: 0.1748656, g: 0.21874273, b: 0.30102503, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: cff45dcbcec565c43b9cdc3660627988, type: 2}
 --- !u!1 &42562402
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,8 +141,8 @@ GameObject:
   m_Name: Fish4/4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &42562403
 Transform:
@@ -251,6 +251,67 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 42562402}
   m_Mesh: {fileID: 4300008, guid: 7a4fc7c563c4e384688d2f3823b64aa4, type: 3}
+--- !u!1001 &64510028
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1709019366099768202, guid: ab1b1620e6366a34387e8b1b13657178, type: 3}
+      propertyPath: m_Name
+      value: ChaserPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978982248055427914, guid: ab1b1620e6366a34387e8b1b13657178, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1958716657}
+    - target: {fileID: 2088676971286595888, guid: ab1b1620e6366a34387e8b1b13657178, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088676971286595888, guid: ab1b1620e6366a34387e8b1b13657178, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.558468
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088676971286595888, guid: ab1b1620e6366a34387e8b1b13657178, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7453516
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088676971286595888, guid: ab1b1620e6366a34387e8b1b13657178, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.1171074
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088676971286595888, guid: ab1b1620e6366a34387e8b1b13657178, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.99898005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088676971286595888, guid: ab1b1620e6366a34387e8b1b13657178, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 6.084641e-11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088676971286595888, guid: ab1b1620e6366a34387e8b1b13657178, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.04515434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088676971286595888, guid: ab1b1620e6366a34387e8b1b13657178, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -2.6293736e-11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088676971286595888, guid: ab1b1620e6366a34387e8b1b13657178, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088676971286595888, guid: ab1b1620e6366a34387e8b1b13657178, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 365.176
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088676971286595888, guid: ab1b1620e6366a34387e8b1b13657178, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ab1b1620e6366a34387e8b1b13657178, type: 3}
 --- !u!1 &74572669
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,8 +465,8 @@ GameObject:
   m_Name: Cheese4/4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &118452236
 Transform:
@@ -531,7 +592,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &135645878
 Transform:
@@ -628,7 +689,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &139077579
 Transform:
@@ -726,8 +787,8 @@ GameObject:
   m_Name: Fish4/4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &204490773
 Transform:
@@ -854,8 +915,8 @@ GameObject:
   m_Name: Cake4/4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &232404331
 Transform:
@@ -980,8 +1041,8 @@ GameObject:
   m_Name: ObstacleOnGiantSpinner (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &247213222
 Transform:
@@ -1073,6 +1134,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2601517723834416180, guid: f56628eb7635f42a59ffee9641655871, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1143,8 +1212,8 @@ GameObject:
   m_Name: ObstacleOnGiantSpinner (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &364156835
 Transform:
@@ -1241,8 +1310,8 @@ GameObject:
   m_Name: ObstacleOnGiantSpinner (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &398754316
 Transform:
@@ -1342,7 +1411,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &455039363
 Transform:
@@ -1468,6 +1537,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ramp (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2601517723834416180, guid: f56628eb7635f42a59ffee9641655871, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1548,8 +1625,8 @@ GameObject:
   m_Name: Cake4/4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &510912962
 Transform:
@@ -1671,7 +1748,7 @@ GameObject:
   m_Name: FirstFallingRow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &563003800
@@ -1698,6 +1775,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7771565258606127763, guid: f56628eb7635f42a59ffee9641655871, type: 3}
   m_PrefabInstance: {fileID: 8768894580240805110}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &656292586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 656292588}
+  - component: {fileID: 656292587}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &656292587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656292586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5911f3c332d76434f8291e95eeef3da2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 1
+--- !u!4 &656292588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656292586}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.2491665, y: 1.5349975, z: -4.62}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &674417088 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
@@ -1813,8 +1935,8 @@ GameObject:
   m_Name: FrontWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &717570895
 Transform:
@@ -1905,6 +2027,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2601517723834416180, guid: f56628eb7635f42a59ffee9641655871, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1972,7 +2102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.892045
+      value: 5.16
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1980,7 +2110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.078925
+      value: -12.27
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2034,8 +2164,8 @@ GameObject:
   m_Name: Watermelon4/4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &864117028
 Transform:
@@ -2179,8 +2309,8 @@ GameObject:
   m_Name: Watermelon4/4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &936873059
 Transform:
@@ -2307,7 +2437,7 @@ GameObject:
   m_Name: RollingFood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &959526805
@@ -2406,7 +2536,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.892045, y: 2.2350001, z: -10.078925}
+  m_LocalPosition: {x: 5.16, y: 2.2350001, z: -12.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2463,8 +2593,8 @@ GameObject:
   m_Name: ObstacleOnGiantSpinner (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &968702233
 Transform:
@@ -2668,8 +2798,8 @@ GameObject:
   m_Name: Fish4/4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1007368157
 Transform:
@@ -2808,7 +2938,7 @@ GameObject:
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1119108113
@@ -2843,7 +2973,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1211901490
 Transform:
@@ -2979,8 +3109,8 @@ GameObject:
   m_Name: Cake4/4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1322518737
 Transform:
@@ -3105,8 +3235,8 @@ GameObject:
   m_Name: SideWallRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1348103428
 Transform:
@@ -3204,8 +3334,8 @@ GameObject:
   m_Name: Cheese4/4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1401868457
 Transform:
@@ -3330,8 +3460,8 @@ GameObject:
   m_Name: MiddleOfSpinner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1423205639
 Transform:
@@ -3428,8 +3558,8 @@ GameObject:
   m_Name: MiddleOfSpinner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1430111828
 Transform:
@@ -3526,8 +3656,8 @@ GameObject:
   m_Name: ObstacleOnGiantSpinner (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1452008335
 Transform:
@@ -3659,8 +3789,8 @@ GameObject:
   m_Name: Watermelon4/4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1482287739
 Transform:
@@ -3899,7 +4029,7 @@ GameObject:
   m_Name: FirstFallingRow (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1576889612
@@ -3931,6 +4061,14 @@ PrefabInstance:
     - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
       propertyPath: m_Name
       value: Ramp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2601517723834416180, guid: f56628eb7635f42a59ffee9641655871, type: 3}
       propertyPath: m_Enabled
@@ -4010,8 +4148,8 @@ GameObject:
   m_Name: SideWallLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1619265109
 Transform:
@@ -4107,8 +4245,8 @@ GameObject:
   m_Name: ObstacleOnGiantSpinner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1701640079
 Transform:
@@ -4202,7 +4340,7 @@ GameObject:
   m_Name: FirstFallingRow (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1811586712
@@ -4303,7 +4441,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1858307097
 MeshCollider:
@@ -4407,8 +4545,8 @@ GameObject:
   m_Name: Cheese4/4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1935302119
 Transform:
@@ -4530,7 +4668,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 45151529812911712, guid: d87ad3a66edd845699b0df739c87cbee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.6920447
+      value: 4.96
       objectReference: {fileID: 0}
     - target: {fileID: 45151529812911712, guid: d87ad3a66edd845699b0df739c87cbee, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4538,7 +4676,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 45151529812911712, guid: d87ad3a66edd845699b0df739c87cbee, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.078925
+      value: -8.27
       objectReference: {fileID: 0}
     - target: {fileID: 45151529812911712, guid: d87ad3a66edd845699b0df739c87cbee, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4574,6 +4712,53 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d87ad3a66edd845699b0df739c87cbee, type: 3}
+--- !u!1 &1958716657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 858984384556973274, guid: d87ad3a66edd845699b0df739c87cbee, type: 3}
+  m_PrefabInstance: {fileID: 1958716656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1958716658
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958716657}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &1958716659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958716657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e31588129dc5c74bbb391ceed4f55d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!136 &1958716660
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958716657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.3128004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.6564002, z: 0}
 --- !u!4 &1965318750 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7771565258606127763, guid: f56628eb7635f42a59ffee9641655871, type: 3}
@@ -4601,6 +4786,14 @@ PrefabInstance:
     - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
       propertyPath: m_Name
       value: Wall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2601517723834416180, guid: f56628eb7635f42a59ffee9641655871, type: 3}
       propertyPath: m_Enabled
@@ -4691,6 +4884,14 @@ PrefabInstance:
     - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
       propertyPath: m_Name
       value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2233729374023601909, guid: f56628eb7635f42a59ffee9641655871, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2601517723834416180, guid: f56628eb7635f42a59ffee9641655871, type: 3}
       propertyPath: m_Materials.Array.data[0]
